@@ -100,5 +100,6 @@ const CourseInfo = {
   
   const result = getLearnerData(CourseInfo, AssignmentGroup, LearnerSubmissions);
   
-  console.log(result);
+  console.log(result);// output : [{ '1': 0.94, '2': 1, id: 125, avg: 0.985 },{ '1': 0.78, '2': 0.8333333333333334, id: 132, avg: 0.82 }]
+  
   
